@@ -1,0 +1,13 @@
+name: nodebrew-use
+version: 0.0.1
+description: A wercker step to change nodejs enviornment.
+keywords:
+  - nodejs
+properties:
+  version:
+    type: string
+    required: true
+  create:
+    type: string
+    required: false
+    default: false
